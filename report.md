@@ -1,5 +1,7 @@
 # 题目2：FastText模型训练
 
+github链接: https://github.com/unknowncloudw/moonshot_quiz_2
+
 ## 1.数据处理
 
 从huggingface中下载openwebmath和fineweb数据集的部分数据，用于训练。预计从openwebmath和fineweb中抽取各200000条数据，并按照8:1:1的比例划分训练集、验证集以及测试集。此外再选取5000条fineweb数据用于标注。
